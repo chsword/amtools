@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmTools", "AmTools\AmTools.csproj", "{50139CC7-7CD6-42CD-A62D-012297197BAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmTools.Tests", "AmTools.Tests\AmTools.Tests.csproj", "{5B8035C9-AC6C-455E-A1DB-D660E5DCC8FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{50139CC7-7CD6-42CD-A62D-012297197BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50139CC7-7CD6-42CD-A62D-012297197BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50139CC7-7CD6-42CD-A62D-012297197BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B8035C9-AC6C-455E-A1DB-D660E5DCC8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B8035C9-AC6C-455E-A1DB-D660E5DCC8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B8035C9-AC6C-455E-A1DB-D660E5DCC8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B8035C9-AC6C-455E-A1DB-D660E5DCC8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
