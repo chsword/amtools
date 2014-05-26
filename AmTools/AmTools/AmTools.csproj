@@ -35,6 +35,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="JSCore">
+      <HintPath>..\lib\JSCore.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Translator">
       <HintPath>..\packages\Microsoft.Translator.0.1.2\lib\Microsoft.Translator.dll</HintPath>
     </Reference>
@@ -50,6 +56,12 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WebKitBrowser">
+      <HintPath>..\lib\WebKitBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="WebKitCore">
+      <HintPath>..\lib\WebKitCore.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -59,6 +71,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Extensions\HtmlNodeExtensions.cs" />
     <Compile Include="Service References\MicrosoftTranslator\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
